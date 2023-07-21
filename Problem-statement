@@ -1,5 +1,9 @@
 KUBERNETES CLUSTER GOVERNANCE CHALLENGES
 ========================================
+As a DevOps Engineer, one of our primary responsibilities is to implement and effect compliance and governance of the Kubernetes Cluster, in such a way that ensures 
+zero application downtime and continuous improvement of overal cluster security. This task is not as easy as it seems. DevOps Enginees spends so much time running tasks
+aimed towards achieving this goal.
+
 The Admission Controller is traditionally meant to solve the problem of effective and efficient Kubernetes Cluster Governance. It is still an effective tool. 
 However, the problem with Admission Control is that it requires a superior skillset - Golang. Kubernetes Cluster Governance is supposed to be one of the
 main duties of DevOps Engineers, but not too many of them can carry out this duty effectively due to defficiency in Golang skill. Even those that are very 
