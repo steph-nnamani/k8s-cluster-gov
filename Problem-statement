@@ -17,3 +17,15 @@ have more time to focus on other areas of productivity. We recently tried a tool
 
 KYVERNO
 =======
+Kyverno is a Dynamic Admission  Controller. It accepts simple human readable language - yaml file. Instructions/Policies are written in yaml and passed onto Kyverno.
+Kyverno transforms the yaml file into a more complex language and pass it to the kubeApi for implementation. I researched about this tool, implemented in my personal 
+laboratory and then introduced it to my Organization. After a successfull POC session, all Engineers agreed that we should implement it. In the final implementation, 
+we decided to integrate it with ArgoCD which brings automation to the whole process.
+
+Project Outcome
+===============
+After successful adoption and implementation of the project, we have continued to experience a significan level of automation in the compliance governance. Senior Engineers 
+presently spends less time on enforcement which is now done by Kyverno and ArgoCD. It's now much easier and less time demanding to write new policies or update existing ones. 
+Junior Engineers does not have issues taking on this once dreaded responsibilty, while as a team we now focus on more important issues that management may decide on from 
+time to time.
+spend lesser time on enforcement, focused more on innovation. 
