@@ -18,9 +18,11 @@ have more time to focus on other areas of productivity. We recently tried a tool
 KYVERNO
 =======
 Kyverno is a Dynamic Admission  Controller. It accepts simple human readable language - yaml file. Instructions/Policies are written in yaml and passed onto Kyverno.
-Kyverno transforms the yaml file into a more complex language and pass it to the kubeApi for implementation. I researched about this tool, implemented in my personal 
-laboratory and then introduced it to my Organization. After a successfull POC session, all Engineers agreed that we should implement it. In the final implementation, 
-we decided to integrate it with ArgoCD which brings automation to the whole process.
+Kyverno transforms the yaml file into a more complex language and pass it to the kubeApi for implementation. This is what Kyverno is bringing to the table:
+1.Instead of writting Admission controllers in Golang; just write a simple yaml file that Kyverno understands and it will hand the required configuration for us.
+
+I researched about this tool, implemented in my personal laboratory and then introduced it to my Organization. After a successfull POC session, all Engineers agreed 
+that we should implement it. In the final implementation, we decided to integrate it with ArgoCD which brings automation to the whole process.
 
 Project Outcome
 ===============
